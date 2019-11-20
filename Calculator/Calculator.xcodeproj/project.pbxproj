@@ -14,6 +14,7 @@
 		4A3D538F2384026D009C2C59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3D538E2384026D009C2C59 /* Preview Assets.xcassets */; };
 		4A3D53922384026D009C2C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3D53902384026D009C2C59 /* LaunchScreen.storyboard */; };
 		4A3D539A2384D166009C2C59 /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D53992384D166009C2C59 /* CalculatorButtonItem.swift */; };
+		4A3D539E23851139009C2C59 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D539D23851139009C2C59 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4A3D53912384026D009C2C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3D53932384026D009C2C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A3D53992384D166009C2C59 /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
+		4A3D539D23851139009C2C59 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4A3D53842384026B009C2C59 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				4A3D539D23851139009C2C59 /* CalculatorBrain.swift */,
 				4A3D53852384026B009C2C59 /* AppDelegate.swift */,
 				4A3D53872384026B009C2C59 /* SceneDelegate.swift */,
 				4A3D53892384026B009C2C59 /* ContentView.swift */,
@@ -152,6 +155,7 @@
 				4A3D53862384026B009C2C59 /* AppDelegate.swift in Sources */,
 				4A3D53882384026B009C2C59 /* SceneDelegate.swift in Sources */,
 				4A3D539A2384D166009C2C59 /* CalculatorButtonItem.swift in Sources */,
+				4A3D539E23851139009C2C59 /* CalculatorBrain.swift in Sources */,
 				4A3D538A2384026B009C2C59 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
