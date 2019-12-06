@@ -92,6 +92,7 @@
 		4AE189132386720E00F34C66 /* PokemonInfoPanelHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE189122386720E00F34C66 /* PokemonInfoPanelHeader.swift */; };
 		4AE18915238678B500F34C66 /* PokemonInfoPanelAbilityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE18914238678B500F34C66 /* PokemonInfoPanelAbilityList.swift */; };
 		4AEF94C3239A407A007395F4 /* SettingRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEF94C2239A407A007395F4 /* SettingRootView.swift */; };
+		4AEF94C8239A43D6007395F4 /* PokemonRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEF94C7239A43D6007395F4 /* PokemonRootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,6 +183,7 @@
 		4AE189122386720E00F34C66 /* PokemonInfoPanelHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoPanelHeader.swift; sourceTree = "<group>"; };
 		4AE18914238678B500F34C66 /* PokemonInfoPanelAbilityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoPanelAbilityList.swift; sourceTree = "<group>"; };
 		4AEF94C2239A407A007395F4 /* SettingRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRootView.swift; sourceTree = "<group>"; };
+		4AEF94C7239A43D6007395F4 /* PokemonRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,10 +216,9 @@
 		4A3D53AE23854A08009C2C59 /* ANKPoke */ = {
 			isa = PBXGroup;
 			children = (
-				4AEF94C4239A41AE007395F4 /* Setting */,
+				4A3D5459238564B9009C2C59 /* View */,
 				4A3D53C323855E73009C2C59 /* JSON */,
 				4A3D544323855E92009C2C59 /* Model */,
-				4A3D5459238564B9009C2C59 /* View */,
 				4A3D545223856011009C2C59 /* Utils */,
 				4A3D53AF23854A08009C2C59 /* AppDelegate.swift */,
 				4A3D53B123854A09009C2C59 /* SceneDelegate.swift */,
@@ -373,12 +374,10 @@
 		4A3D5459238564B9009C2C59 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4AE1890E2386407100F34C66 /* PokemonList.swift */,
-				4A3D545A238564D8009C2C59 /* PokemonInfoRow.swift */,
-				4AE18910238664FC00F34C66 /* PokemonInfoPanel.swift */,
-				4AE189122386720E00F34C66 /* PokemonInfoPanelHeader.swift */,
-				4AE18914238678B500F34C66 /* PokemonInfoPanelAbilityList.swift */,
-				4A1626212386B649002E5BEC /* BlurView.swift */,
+				4AEF94C4239A41AE007395F4 /* Setting */,
+				4AEF94C5239A42E5007395F4 /* Panel */,
+				4AEF94C6239A43B6007395F4 /* List */,
+				4AEF94C9239A4462007395F4 /* Utils */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -390,6 +389,34 @@
 				4AEF94C2239A407A007395F4 /* SettingRootView.swift */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		4AEF94C5239A42E5007395F4 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				4AE18910238664FC00F34C66 /* PokemonInfoPanel.swift */,
+				4AE189122386720E00F34C66 /* PokemonInfoPanelHeader.swift */,
+				4AE18914238678B500F34C66 /* PokemonInfoPanelAbilityList.swift */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		4AEF94C6239A43B6007395F4 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				4AE1890E2386407100F34C66 /* PokemonList.swift */,
+				4A3D545A238564D8009C2C59 /* PokemonInfoRow.swift */,
+				4AEF94C7239A43D6007395F4 /* PokemonRootView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		4AEF94C9239A4462007395F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4A1626212386B649002E5BEC /* BlurView.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -543,6 +570,7 @@
 				4AE18911238664FC00F34C66 /* PokemonInfoPanel.swift in Sources */,
 				4AE1890F2386407100F34C66 /* PokemonList.swift in Sources */,
 				4A3D545623856050009C2C59 /* Sample.swift in Sources */,
+				4AEF94C8239A43D6007395F4 /* PokemonRootView.swift in Sources */,
 				4A3D545423856026009C2C59 /* FileHelper.swift in Sources */,
 				4A7707762386BE4B00FE88DE /* Settings.swift in Sources */,
 			);

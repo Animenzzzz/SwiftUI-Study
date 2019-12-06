@@ -10,7 +10,9 @@ import SwiftUI
 
 struct SettingRootView: View {
     var body: some View {
-        SettingView().navigationBarTitle("设置")
+        NavigationView {
+            SettingView().navigationBarTitle("设置")
+        }
     }
 }
 
