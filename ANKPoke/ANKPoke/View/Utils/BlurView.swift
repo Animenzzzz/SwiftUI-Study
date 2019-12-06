@@ -15,6 +15,8 @@ struct BlurView : UIViewRepresentable {
     
     func makeUIView(context: UIViewRepresentableContext<BlurView>) -> UIView {
         
+        print("makeUIView")
+        
         let view = UIView(frame: .zero)
         view.backgroundColor = .clear
         
@@ -30,6 +32,8 @@ struct BlurView : UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<BlurView>) {
+        
+        print("updateUIView")
         
     }
    

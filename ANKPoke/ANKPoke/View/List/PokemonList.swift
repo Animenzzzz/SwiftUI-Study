@@ -11,11 +11,14 @@ import SwiftUI
 struct PokemonList: View {
 
     @State var expandingIndex: Int?
+    @State var searchText: String = ""
     
     var body: some View {
         
         ScrollView{
-            
+            TextField("搜索",text:$searchText)
+                .frame(height:40)
+                .padding(.horizontal,25)
             ForEach(PokemonViewModel.all){ pokeModel in
                 
                 PokemonInfoRow(model: pokeModel, expanded: self.expandingIndex == pokeModel.id).onTapGesture {
